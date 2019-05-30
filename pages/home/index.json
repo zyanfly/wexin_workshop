@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+        "v-carousel": "/components/carousel/index",
+        "v-support": "/components/support/index",
+        "v-loading": "/components/loading/index"
+  }
+}

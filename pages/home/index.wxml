@@ -1,0 +1,6 @@
+<v-carousel carousels="{{carousels}}" />
+<view>{{basic.name}}</view>
+<view bind:tap="redirectAddress">{{location.name}}</view>
+<view bind:tap="makePhone">{{basic.phone}}</view>
+<v-support />
+<v-loading class="loading-center" wx:if="{{loadingCenter}}"/>

@@ -1,0 +1,6 @@
+.home_title{
+    display:flex;
+    height:100rpx;
+    justify-content: center;
+    align-items: center;
+}

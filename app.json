@@ -1,0 +1,13 @@
+{
+    "pages": [
+        "pages/home/index",
+        "pages/support/index"
+    ],
+    "window": {
+        "navigationBarTitleText": "象湖摄影",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTextStyle": "black"
+    },
+    "sitemapLocation": "sitemap.json"
+}
