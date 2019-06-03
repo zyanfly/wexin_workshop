@@ -2,9 +2,9 @@
 <view class="name">{{basic.name}}</view>
 <view class="content">
   <view>
-    <view class="item_left">
-    <image class="title_icon" src="/imgs/public/service.png" />
-      <button open-type='contact'>点击进入客服会话</button>
+    <view class="item_left service">
+      <image class="title_icon" src="/imgs/public/service.png" />
+      <button class="service_btn" size="mini" open-type='contact'>点击进入客服会话</button>
     </view>
     <view class="item_right">
       <image src="/imgs/public/arrow.png" />
