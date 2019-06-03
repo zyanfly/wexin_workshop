@@ -1,0 +1,12 @@
+<view class="swiper_container">
+  <swiper class="swiper_content" previous-margin="30rpx" next-margin="30rpx">
+      <block wx:for="{{carousels}}" id="{{'item'+index}}" class="image_wrapper">
+        <swiper-item class="swiper_item">
+          <image bindtap="viewImage" data-src="{{item.pic}}" class="swiper_image" src="{{item.pic}}" />
+          <text class="item_text">{{index+1}}/{{carousels.length}}</text>
+        </swiper-item>
+      </block>
+    </swiper>
+</view> 
+
+ 

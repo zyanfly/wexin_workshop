@@ -2,6 +2,10 @@
   "usingComponents": {
         "v-carousel": "/components/carousel/index",
         "v-support": "/components/support/index",
-        "v-loading": "/components/loading/index"
+        "v-loading": "/components/loading/index",
+        "v-carousel-tap": "/components/carousel-tap/index"
+  },
+  "window":{
+    "backgroundColor":"#f1f1f1"
   }
 }
