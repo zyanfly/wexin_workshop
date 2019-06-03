@@ -1,10 +1,19 @@
 <v-carousel-tap carousels="{{carousels}}" />
 <view class="name">{{basic.name}}</view>
 <view class="content">
+  <view>
+    <view class="item_left">
+    <image class="title_icon" src="/imgs/public/service.png" />
+      <button open-type='contact'>点击进入客服会话</button>
+    </view>
+    <view class="item_right">
+      <image src="/imgs/public/arrow.png" />
+    </view>
+  </view>
   <view bind:tap="redirectAddress">
     <view class="item_left">
       <image class="title_icon" src="/imgs/public/position.png" />
-      <view class="content_text">{{location.name}}</view>
+      <view class="content_text">{{location.address}}</view>
     </view>
     <view class="item_right">
       <text>{{'<10m'}}</text>
@@ -20,8 +29,7 @@
   <view bind:tap="makePhone">
     <view class="item_left">
       <image class="title_icon" src="/imgs/public/phone.png" />
-      <!-- {{basic.phone}} -->
-      <view class="content_text">02423586319</view>
+      <view class="content_text">{{basic.phone}}</view>
     </view>
     <view class="item_right">
       <image src="/imgs/public/arrow.png" />
