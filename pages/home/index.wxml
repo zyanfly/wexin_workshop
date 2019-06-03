@@ -1,4 +1,5 @@
-<v-carousel carousels="{{carousels}}" />
+<!-- <v-carousel carousels="{{carousels}}" /> -->
+<v-carousel-tap carousels="{{carousels}}" />
 <view>{{basic.name}}</view>
 <view bind:tap="redirectAddress">{{location.name}}</view>
 <view bind:tap="makePhone">{{basic.phone}}</view>
