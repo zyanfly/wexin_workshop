@@ -1,7 +1,34 @@
-<!-- <v-carousel carousels="{{carousels}}" /> -->
 <v-carousel-tap carousels="{{carousels}}" />
-<view>{{basic.name}}</view>
-<view bind:tap="redirectAddress">{{location.name}}</view>
-<view bind:tap="makePhone">{{basic.phone}}</view>
+<!-- <view class="name">{{basic.name}}</view> -->
+<view class="name">GUGU婚纱摄影工作室</view>
+<view class="content">
+  <view bind:tap="redirectAddress">
+    <view class="item_left">
+      <image class="title_icon" src="/imgs/public/position.png" />
+      <!-- <view class="content_text">{{location.name}}</view> -->
+      <view class="content_text">浙江大学浙江大学浙江大学浙江大学浙江大学浙江大学浙江大学浙江大学浙江大学浙江大学浙江大学浙江大学浙江大学浙江大学浙江大学</view>
+    </view>
+    <view class="item_right">
+      <text>{{'<10m'}}</text>
+      <image src="/imgs/public/arrow.png" />
+    </view>
+  </view>
+  <view>
+    <view class="item_left">
+      <image class="title_icon" src="/imgs/public/time.png" />
+      <view class="content_text">9:00-18:00</view>
+    </view>
+  </view>
+  <view bind:tap="makePhone">
+    <view class="item_left">
+      <image class="title_icon" src="/imgs/public/phone.png" />
+      <!-- {{basic.phone}} -->
+      <view class="content_text">02423586319</view>
+    </view>
+    <view class="item_right">
+      <image src="/imgs/public/arrow.png" />
+    </view>
+  </view>
+</view>
 <v-support />
-<v-loading class="loading-center" wx:if="{{loadingCenter}}"/>
+<v-loading class="loading-center" wx:if="{{loadingCenter}}" />
