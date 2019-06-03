@@ -1,9 +1,11 @@
 .swiper_content{
   font-size:0;
+  height:400rpx;
   background-color:#fff;
 }
 .swiper_image{
   width:676rpx;
+  height:480rpx;
   margin-left:10rpx;
 }
 .swiper_item{

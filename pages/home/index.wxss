@@ -21,9 +21,9 @@ page{
     display:flex;
     align-items:center;
     justify-content: space-between;
-    padding:30rpx 0rpx;
+    padding:40rpx 0rpx;
     margin:0 30rpx;
-    border-bottom:1px solid #ddd;
+    border-bottom:1px solid #eee;
 }
 
 .content_text{
@@ -41,12 +41,35 @@ page{
 .item_left{
     display:flex;
     flex-basis: 80%;
+    justify-content: left;
+    padding:5rpx;
 }
 .item_right{
     align-self: flex-start;
 }
-
 .item_right > image{
     width:25rpx;
     height:25rpx;
 }
+/* 客服 */
+.service{
+    align-items: center;
+    /* position: relative; */
+}
+.service+.item_right{
+    align-self: center;
+}
+.service .service_btn{
+    /* position: static; */
+    margin-left:0;
+    padding-left:0;
+    width:100%;
+    text-align:left;
+    background-color:transparent;
+    color:#666;
+}
+.service_btn:after{
+    border:none;
+}
+
+
