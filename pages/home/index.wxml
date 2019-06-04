@@ -1,36 +1,39 @@
 <v-carousel-tap carousels="{{carousels}}" />
-<view class="name">
-  <text class="text_style">{{basic.name}}</text>
+<view class="shop_name">
+  <text>{{basic.name}}</text>
 </view>
-<view class="content">
-  <view>
-    <view class="item_left service">
-      <image class="title_icon" src="/imgs/public/service.png" />
-      <button class="service_btn" size="mini" open-type='contact'>点击进入客服会话</button>
+<view class="shop_detail">
+  <view class="detail_item_service">
+    <view class="service_container">
+      <view >
+        <image class="title_icon" src="/imgs/public/service.png" />
+        <text>点击进入客服会话</text>
+      </view>
+      <image class="service_right" src="/imgs/public/arrow.png" />
     </view>
-    <view class="item_right">
-      <image src="/imgs/public/arrow.png" />
-    </view>
+    <button class="service_btn" size="mini" open-type='contact'></button>
+    <!-- <view> -->
+    <!-- </view> -->
   </view>
-  <view bind:tap="redirectAddress">
+  <view class="detail_item" bind:tap="redirectAddress">
     <view class="item_left">
       <image class="title_icon" src="/imgs/public/position.png" />
-      <view class="content_text">{{location.address}}</view>
+      <view class="item_center">{{location.address}}</view>
     </view>
     <view class="item_right">
       <image src="/imgs/public/arrow.png" />
     </view>
   </view>
-  <view>
+  <view class="detail_item">
     <view class="item_left">
       <image class="title_icon" src="/imgs/public/time.png" />
-      <view class="content_text">9:00-18:00</view>
+      <view class="item_center">9:00-18:00</view>
     </view>
   </view>
-  <view bind:tap="makePhone">
+  <view class="detail_item" bind:tap="makePhone">
     <view class="item_left">
       <image class="title_icon" src="/imgs/public/phone.png" />
-      <view class="content_text">{{basic.phone}}</view>
+      <view class="item_center">{{basic.phone}}</view>
     </view>
     <view class="item_right">
       <image src="/imgs/public/arrow.png" />
