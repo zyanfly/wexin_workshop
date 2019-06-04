@@ -12,6 +12,10 @@ page{
     font-weight:600;
 }
 
+.text_style{
+    margin-left:10rpx;
+}
+
 .content{
     background-color:#fff;
     /* padding:20rpx 30rpx 0 30rpx; */
@@ -29,6 +33,7 @@ page{
 .content_text{
     /* height:30rpx; */
     width:90%;
+    font-size:30rpx;
 }
 
 .title_icon{
@@ -67,6 +72,7 @@ page{
     text-align:left;
     background-color:transparent;
     color:#666;
+    font-size:30rpx;
 }
 .service_btn:after{
     border:none;
