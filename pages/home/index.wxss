@@ -1,8 +1,10 @@
 page{
     background-color:#f1f1f1;
+    font-size:14px;
 }
 
-.name{
+/* 店名 */
+.shop_name{
     height:60rpx;
     font-size:20px;
     padding:30rpx 30rpx 50rpx;
@@ -10,18 +12,15 @@ page{
     margin-bottom:10rpx;
     background-color:#fff;
     font-weight:600;
+    padding-left:20rpx;
 }
 
-.text_style{
-    margin-left:10rpx;
-}
-
-.content{
+/* 店铺详情列表 */
+.shop_detail{
     background-color:#fff;
-    /* padding:20rpx 30rpx 0 30rpx; */
 }
 
-.content > view{
+.detail_item{
     display:flex;
     align-items:center;
     justify-content: space-between;
@@ -30,14 +29,12 @@ page{
     border-bottom:1px solid #eee;
 }
 
-.content_text{
-    /* height:30rpx; */
+.item_center{
     width:90%;
-    font-size:30rpx;
+    /* font-size:14px; */
 }
 
 .title_icon{
-    /* flex-basis: 10%; */
     margin-right:20rpx;
     width:40rpx;
     height:40rpx;
@@ -49,33 +46,47 @@ page{
     justify-content: left;
     padding:5rpx;
 }
+
 .item_right{
     align-self: flex-start;
 }
+
 .item_right > image{
     width:25rpx;
     height:25rpx;
 }
+
 /* 客服 */
-.service{
-    align-items: center;
-    /* position: relative; */
+.detail_item_service{
+    position: relative;
+    padding:40rpx 0rpx;
+    margin:0 30rpx;
+    border-bottom:1px solid #eee;
 }
-.service+.item_right{
-    align-self: center;
+.service_container{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
 }
-.service .service_btn{
-    /* position: static; */
-    margin-left:0;
-    padding-left:0;
+.service_container > view{
+    display:flex;
+    align-items:center;
+    /* font-size:14px; */
+}
+.service_right{
+    float:right;
+    width:25rpx;
+    height:25rpx;
+}
+.service_btn{
+    position: absolute;
+    top:0;
+    left:0;
     width:100%;
-    text-align:left;
+    height:100%;
     background-color:transparent;
-    color:#666;
-    font-size:30rpx;
+    font-size:0;
 }
 .service_btn:after{
     border:none;
 }
-
-
