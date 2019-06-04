@@ -1,6 +1,6 @@
 <v-carousel-tap carousels="{{carousels}}" />
 <view class="shop_name">
-  <text>{{basic.name}}</text>
+  <text class="basic_name">{{basic.name}}</text>
 </view>
 <view class="shop_detail">
   <view class="detail_item_service">
@@ -27,7 +27,7 @@
   <view class="detail_item">
     <view class="item_left">
       <image class="title_icon" src="/imgs/public/time.png" />
-      <view class="item_center">9:00-18:00</view>
+      <view class="item_center">{{basic.business_hour}}</view>
     </view>
   </view>
   <view class="detail_item" bind:tap="makePhone">

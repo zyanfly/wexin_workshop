@@ -90,3 +90,7 @@ page{
 .service_btn:after{
     border:none;
 }
+
+.basic_name{
+    padding-left: 20rpx;
+}
