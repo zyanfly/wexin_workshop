@@ -35,7 +35,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": 2,
 			"list": [
 				{
 					"id": 3,
@@ -48,6 +48,13 @@
 					"id": -1,
 					"name": "分类",
 					"pathName": "pages/photographs/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "support",
+					"pathName": "pages/support/index",
 					"scene": null
 				}
 			]

@@ -9,7 +9,7 @@
 }
 
 page{
-  font-size:14px;
+  font-size:25rpx;
   color:#666;
 }
 

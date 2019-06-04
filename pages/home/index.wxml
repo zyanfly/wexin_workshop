@@ -1,5 +1,7 @@
 <v-carousel-tap carousels="{{carousels}}" />
-<view class="name">{{basic.name}}</view>
+<view class="name">
+  <text class="text_style">{{basic.name}}</text>
+</view>
 <view class="content">
   <view>
     <view class="item_left service">
@@ -16,7 +18,6 @@
       <view class="content_text">{{location.address}}</view>
     </view>
     <view class="item_right">
-      <text>{{'<10m'}}</text>
       <image src="/imgs/public/arrow.png" />
     </view>
   </view>
