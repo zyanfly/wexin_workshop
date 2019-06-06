@@ -5,9 +5,10 @@
     ],
     "window": {
         "navigationBarTitleText": "XiangHu摄影工作室",
-        "backgroundTextStyle": "light",
+        "backgroundTextStyle": "dark",
         "navigationBarBackgroundColor": "#fff",
-        "navigationBarTextStyle": "black"
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true
     },
     "sitemapLocation": "sitemap.json"
 }
