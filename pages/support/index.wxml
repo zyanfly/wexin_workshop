@@ -1,6 +1,6 @@
 <view>
   <view class="title">
-    <text>让我们联系你制作</text>
+    <text>让我们联系你制作小程序</text>
   </view>
   <view class="form_wrapper">
     <form bind:submit="formSubmit">

@@ -9,7 +9,7 @@
 .title:after{
   content:'';
   display:block;
-  width:60rpx;
+  width:380rpx;
   position: absolute;
   left:50%;
   transform:translateX(-50%);
