@@ -4,10 +4,11 @@
         "pages/support/index"
     ],
     "window": {
-        "navigationBarTitleText": "GuGu摄影工作室",
-        "backgroundTextStyle": "light",
+        "navigationBarTitleText": "灵溪摄影",
+        "backgroundTextStyle": "dark",
         "navigationBarBackgroundColor": "#fff",
-        "navigationBarTextStyle": "black"
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true
     },
     "sitemapLocation": "sitemap.json"
 }
